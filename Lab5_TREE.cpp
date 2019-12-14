@@ -132,6 +132,14 @@ class BinaryTree
 		// TODO
     inOrder(root);
 	}
+	
+    void find_and_add(int value)
+    {
+      // TODO
+ if(find(root, value)==0) cout <<"Cannot find!" <<endl;
+else cout << find_and_add(root, value) <<endl;
+
+    }
   
 };
 
