@@ -145,29 +145,7 @@ else cout << find_and_add(root, value) <<endl;
 
 int main(int argc, char* argv[]) {
 	BinaryTree bt;
-	ifstream inFile;
-	int val;
-    char command;
-	inFile.open(argv[1]);
-	if (!inFile) {
-		cout << "Unable to open file";
-		exit(1); // terminate with error
-	}
-	while (inFile >> command) {
-		switch(command)
-        {
-            case 'i':   // Insert value to BST
-                inFile >> val;
-                bt.insert(val);
-                break;            
-            case 'f':
-                inFile >> val;
-                cout << bt.find(val) << endl;
-                break;
-        }
-	}
-
-    inFile.close();
-    return 0;
+	// bt.
+    	return 0;
     
 }
