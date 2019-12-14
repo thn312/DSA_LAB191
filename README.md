@@ -1,5 +1,5 @@
 # DSA_LAB191
-Data Structures and Algorithms
+Data Structures and Algorithms - Cấu trúc dữ liệu và giải thuật - HCMUT - HK191
 
 Ch06 - Tree
 Ch07 - AVL
