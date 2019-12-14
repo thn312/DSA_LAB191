@@ -102,28 +102,5 @@ int Kmax(int* arr, int N) {
 
 
 int main(int argc, char* argv[]){
-    std::ifstream inFile;
-	int length;
-	inFile.open(argv[1]);
-	if (!inFile) {
-		std::cout << "Unable to open file";
-		exit(1); // terminate with error
-	}
-	inFile >> length;
-	int arr[length];
-    int temp;
-    for (int i=0;i<length;i++){
-        inFile >> temp;
-        arr[i] = temp;
-    }
-    int data;
-    bool isOk;
-    for(int i=0;i<3;i++){
-        isOk = deleteHeap(arr,length-1,data);
-        length=length-1;
-    }
-    if (length<=-1) cout<< isOk<<endl;
-    else cout<<data<<endl;
-	inFile.close();
 	return 0;
 }
